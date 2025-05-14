@@ -1,16 +1,18 @@
-function AddToDoItem2() {
+function AddToDoItem1(){
+    let todoName = 'Go to college';
+    let todoDate = '06/05/2025';
     return <>
-        <div class="row">
+      <div class="row">
             <div class="col-6">
-                <p>go to college</p>
+              <p>{todoName}</p>
             </div>
             <div class="col-4">
-                05/10/2025
+              {todoDate}
             </div>
             <div class="col-2">
-                <button type="button" class="btn btn-danger">delete</button>
+            <button type="button" class="btn btn-danger">Delete</button>
             </div>
-        </div>
+          </div>
     </>
 }
-export default AddToDoItem2;
+export default AddToDoItem1;
